@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# .NET Framework 4.8 is coming to App Service
+We are making an update to App Service to support .NET Framework 4.8. The update is coming to App Service starting deployment in July 14, 2020 and ending by September 15, 2020.  In preparation for your application to be updated to .NET Framework 4.8 we recommend that you test your applications locally in advance to prepare.
 
-You can use the [editor on GitHub](https://github.com/jeffwmartinez/appservicedotnetframework.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[What are the main benefits for App Service customers coming in this change?]
+1. 
+2.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Preparing your site 
+#### Testing your applications locally
+[General Updates](https://devblogs.microsoft.com/dotnet/announcing-the-net-framework-4-8/) <br/>
+[Release Notes](https://github.com/microsoft/dotnet/blob/master/releases/net48/README.md)
 
-### Markdown
+1. Download .NET Framework 4.8
+2. Update your application
+3. Run it on local browsers
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+What will be affected? What to test for?
 
-```markdown
-Syntax highlighted code block
+#### Confirming the update on your application
+To see if your apps have been updated after we begin the platform update, check which .NET Framework version is in use by using the *Console* feature under *Development Tools* in the App Service blade of your Azure Portal.
 
-# Header 1
-## Header 2
-### Header 3
+ADD_SCREENSHOT_OF_INTERFACE_ACTIONS
 
-- Bulleted
-- List
+1. Run the following command: cd "\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework" .  
 
-1. Numbered
-2. List
+2. Run the dir command to list out the installed versions of .NET Framework.  
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jeffwmartinez/appservicedotnetframework.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+3. If .NET Framework 4.8 is installed, it will be located at D:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8 
