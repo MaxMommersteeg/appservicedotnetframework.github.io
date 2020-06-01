@@ -1,5 +1,5 @@
 # .NET Framework 4.8 is coming to App Service
-We are making an update to App Service to support .NET Framework 4.8. You will now be able to take advantage of the .NET Framework updated toolset and key improvements in the Runtime, Accesibility and Service Behavior enhancements just to name a few.  For the full list of updates and changes see the [announcement](https://devblogs.microsoft.com/dotnet/announcing-the-net-framework-4-8/).  The update is coming to App Service starting deployment in *July 14, 2020* and completing by *September 15, 2020*.  In preparation for your application to be updated to .NET Framework 4.8 we recommend that you test your applications locally in advance to prepare.
+We are making an update to App Service to support .NET Framework 4.8. You will now be able to take advantage of the .NET Framework updated toolset and key improvements in the Runtime, Accesibility and Service Behavior enhancements just to name a few.  For the full list of updates and changes see the [announcement](https://devblogs.microsoft.com/dotnet/announcing-the-net-framework-4-8/).  The update is coming to App Service starting deployment in *July 14, 2020* and completing by *September 15, 2020*.  In preparation for your application update to .NET Framework 4.8 we recommend that you test your applications locally in advance to prepare.
 
 ## Preparing your site 
 #### Testing your applications locally
@@ -13,7 +13,7 @@ We are making an update to App Service to support .NET Framework 4.8. You will n
 
 What will be affected? What to test for?
 
-#### Confirming the update on your application
+#### Confirming the update on App Service
 To see if your apps have been updated after we begin the platform update, check which .NET Framework version is in use by using the **Console** feature under **Development Tools** in the App Service blade of your Azure Portal.
 
 ![Console](images/console.png)
@@ -26,4 +26,4 @@ To see if your apps have been updated after we begin the platform update, check 
 3. If .NET Framework 4.8 is installed, it will be located at *D:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8*
 
 
-To track the deployment progress, we will be posting periodic updates [here](https://github.com/Azure/app-service-announcements/issues/249).
+To track progress during the deployment, we will be posting periodic updates [here](https://github.com/Azure/app-service-announcements/issues/249).
