@@ -8,7 +8,7 @@ Test your application locally by reviewing the [Migration guide](https://docs.mi
 
 1. Download & install .NET Framework 4.8 for your appropriate scenario [here](https://devblogs.microsoft.com/dotnet/announcing-the-net-framework-4-8/).
 2. See the [Runtime changes](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/runtime/4.7.2-4.8) and [Retargeting guide](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/retargeting/4.7.2-4.8) to check for application compatibility issues that may affect your application.
-3. Run your application on your local browser.
+3. Run the application in your local browser.
 
 If you have issues with your application, feedback can be given on [GitHub](https://github.com/Microsoft/dotnet/issues/).
 
