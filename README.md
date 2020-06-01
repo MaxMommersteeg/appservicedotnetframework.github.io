@@ -4,12 +4,11 @@ We are making an update to App Service to support .NET Framework 4.8. You will s
 To track progress during the deployment, we will be posting periodic updates [here](https://github.com/Azure/app-service-announcements/issues/249).
 
 ### Testing your applications locally
-Test your application locally by downloading the framework, understanding the changes linked below, and running your application accordingly.  
+Test your application locally by reviewing the [Migration guide](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/), and completing the following steps:
 
-1. Download .NET Framework 4.8 for your appropriate scenario [here](https://devblogs.microsoft.com/dotnet/announcing-the-net-framework-4-8/).
-2. See the [Migration guide](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/) for an overview of resources to review 
-3. See the [Runtime changes](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/runtime/4.7.2-4.8) and [Retargeting guide](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/retargeting/4.7.2-4.8) to check for application compatibility issues that may affect your application.
-4. Run your application on your local browser.
+1. Download & install .NET Framework 4.8 for your appropriate scenario [here](https://devblogs.microsoft.com/dotnet/announcing-the-net-framework-4-8/).
+2. See the [Runtime changes](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/runtime/4.7.2-4.8) and [Retargeting guide](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/retargeting/4.7.2-4.8) to check for application compatibility issues that may affect your application.
+3. Run your application on your local browser.
 
 If you have issues with your application, feedback can be given on [github](https://github.com/Microsoft/dotnet/issues/).
 
