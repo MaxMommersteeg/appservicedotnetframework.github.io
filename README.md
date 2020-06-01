@@ -10,7 +10,7 @@ Test your application locally by reviewing the [Migration guide](https://docs.mi
 2. See the [Runtime changes](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/runtime/4.7.2-4.8) and [Retargeting guide](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/retargeting/4.7.2-4.8) to check for application compatibility issues that may affect your application.
 3. Run your application on your local browser.
 
-If you have issues with your application, feedback can be given on [github](https://github.com/Microsoft/dotnet/issues/).
+If you have issues with your application, feedback can be given on [GitHub](https://github.com/Microsoft/dotnet/issues/).
 
 ### Confirming the update on App Service
 To see if your apps have been updated after we begin the platform update, check which .NET Framework version is in use by using the **Console** feature under **Development Tools** in the App Service blade of your Azure Portal.
