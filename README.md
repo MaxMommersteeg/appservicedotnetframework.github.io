@@ -17,12 +17,13 @@ We are making an update to App Service to support .NET Framework 4.8. The update
 What will be affected? What to test for?
 
 #### Confirming the update on your application
-To see if your apps have been updated after we begin the platform update, check which .NET Framework version is in use by using the *Console* feature under *Development Tools* in the App Service blade of your Azure Portal.
+To see if your apps have been updated after we begin the platform update, check which .NET Framework version is in use by using the **Console** feature under **Development Tools** in the App Service blade of your Azure Portal.
 
-ADD_SCREENSHOT_OF_INTERFACE_ACTIONS
+![Console](images/console.png)
 
-1. Run the following command: cd "\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework" .  
+1. Run the following command: *cd "\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework"* .  
 
-2. Run the dir command to list out the installed versions of .NET Framework.  
+2. Run the *dir* command to list out the installed versions of .NET Framework.  
+![Console2](images/console2.png)
 
-3. If .NET Framework 4.8 is installed, it will be located at D:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8 
+3. If .NET Framework 4.8 is installed, it will be located at *D:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8*
